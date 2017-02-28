@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="design.css">
+<title>Calculator</title>
+</head>
+<body id="body">
+<h1 id="heading">Calculator</h1>
+<div id="cal">
+ <p id="name">Danish Rehan - B13101015</p>
+  <form>
+    <input type="text" id="display">
+    <br>
+    <input type="button" value="C" class="bt" onClick="obj.set('C')">
+    <input type="button" value="<--" class="bt" onClick="obj.backspace()">
+    <input type="button" value="X^2" class="bt" onClick="obj.power(2)">
+    <input type="button" value="+" class="bt" onClick="obj.set('+')">
+    <br>
+    <input type="button" value="7" class="bt" onClick="obj.set('7')">
+    <input type="button" value="8" class="bt" onClick="obj.set('8')">
+    <input type="button" value="9" class="bt" onClick="obj.set('9')">
+    <input type="button" value="-" class="bt" onClick="obj.set('-')">
+    <br>
+    <input type="button" value="4" class="bt" onClick="obj.set('4')">
+    <input type="button" value="5" class="bt" onClick="obj.set('5')">
+    <input type="button" value="6" class="bt" onClick="obj.set('6')">
+    <input type="button" value="*" class="bt" onClick="obj.set('*')">
+    <br>
+    <input type="button" value="1" class="bt" onClick="obj.set('1')">
+    <input type="button" value="2" class="bt" onClick="obj.set('2')">
+    <input type="button" value="3" class="bt" onClick="obj.set('3')">
+    <input type="button" value="/" class="bt" onClick="obj.set('/')">
+    <br>
+    <input type="button" value="0" class="bt" onClick="obj.set('0')">
+    <input type="button" value="." class="bt" onClick="obj.decimal('.')">
+    <input type="button" value="=" id="equal" onClick="obj.calculate()">
+  </form>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

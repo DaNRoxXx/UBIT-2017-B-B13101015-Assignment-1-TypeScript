@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body
+{
+	background: black;
+}
+
+#heading
+{
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#cal
+{
+	width: 400px;
+	height: 350px;
+	border: 1px solid black;
+	text-align: center;
+	background: #FCEB00;
+	margin: 120px auto;
+	box-shadow: 0px 0px 30px orange;
+}
+
+#display
+{
+	margin-bottom: 20px;
+	width: 220px;
+	height: 30px;
+	border: 1px solid orange;
+	box-shadow: 0px 0px 30px red;
+	text-align: right;
+	font: 20px bold;
+	color: blue;
+}
+
+.bt
+{
+	width: 41px;
+	height: 31px;
+	margin: 0px 0px 20px 10px;
+	box-shadow: 0px 0px 20px red;
+	cursor: pointer;
+}
+
+.bt:hover
+{
+	background: orange;
+	font-weight: bold;
+}
+
+#equal
+{
+	width: 90px;
+	height: 31px;
+	margin: 0px 0px 20px 10px;
+	box-shadow: 0px 0px 20px red;
+	cursor: pointer;
+}
+
+#equal:hover
+{
+	background: #FF191C;
+	font-weight: bold;
+}
+
+#name
+{
+	text-align: center;
+	padding-left: 15px;
+	margin-top: 6px;
+	margin-bottom: 5px;
+}
